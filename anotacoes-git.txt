@@ -1,0 +1,65 @@
+Git - Anotações
+
+
+Site para instalação
+
+https://git-scm.com/
+
+Comando para ver se está instalado
+
+git --version
+
+Git é o sistema de versionamento
+
+Github é o repositório de versionamentos do Git
+
+Comando para iniciar o git, no Git Bash
+
+Comandos de inicialização - estão fora de ordem
+
+git init - inicia o git.
+
+git log - mostra o log dos commits ou versionamentos.
+
+git status - mostra o status do git.
+
+git commit -m "Alterando a mensagem do arquivo." - realizando commit ou subindo versão, com uma mensagem de indicação, do que foi feito.
+
+git config --global user.name - ver quem é o usuário.
+
+git config --global user.name "Gabriel Brum" - colocando o usuário em aspas.
+
+git config --global user.email - ver e-mail cadastrado.
+
+git add outro-arquivo.py - adicionou para um arquivo específico.
+
+git add . - adiciona todos os arquivos do diretório.
+
+q - sai do log.
+
+Para sincronizar o github com o git bash do vs code
+
+1. crie uma conta no github, ou logue com a que você já tem.
+
+2. crie um novo repositório.
+
+3. ao entrar no repositório, rode os comandos que aparecem na segunda parte da tela, no terminal do gitbash do vs code.
+
+4. dentro do diretório, no vscode, que você quer subir. Digite os comandos abaixo.
+
+4.1 git add .
+
+4.2 git commit -m "mensagem indicando a atualização"
+
+4.3 git push
+
+Para clonar um repositório
+
+1. copie o link de clonagem do repositório
+
+2. entre no powershell, e digite git clone e cole o link do repositório, enter
+
+3. digite: code .
+
+4. para navegar entre as branches, digite: git switch e o nome da branches
+
